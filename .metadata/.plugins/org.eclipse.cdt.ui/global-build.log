@@ -1,0 +1,1642 @@
+21:23:51 **** Rebuild of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o input.o "..\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o LinkedList.o "..\\LinkedList.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+Info: Nothing to build for PARCIAL_[1]
+21:31:26 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:32:12 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:32:53 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:33:20 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:36:22 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:37:54 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:38:03 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:39:14 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:39:30 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:39:42 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:40:36 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o input.o main.o parser.o 
+21:47:46 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o estetica.o "..\\estetica.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o input.o "..\\input.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+21:48:17 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+21:48:40 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+21:49:57 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+21:51:44 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+21:52:41 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+21:54:51 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+21:55:24 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:19:38 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:5:
+..\Passenger.h:106:21: error: unknown type name 'Passenger'
+  106 | void Passenger_list(Passenger* this);
+      |                     ^~~~~~~~~
+..\main.c: In function 'main':
+..\main.c:98:29: error: 'listaPasajeros' undeclared (first use in this function)
+   98 |              if (ll_isEmpty(listaPasajeros) || (banderaTexto == 0 && banderaBinario == 0))
+      |                             ^~~~~~~~~~~~~~
+..\main.c:98:29: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:239:41: error: 'cloneArray' undeclared (first use in this function)
+  239 |     if (!ll_containsAll(listaPasajeros, cloneArray))
+      |                                         ^~~~~~~~~~
+23:43:23 **** Rebuild of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_loadFromText':
+..\Controller.c:32:15: warning: implicit declaration of function 'parser_PassengerFromText' [-Wimplicit-function-declaration]
+   32 |  validacion = parser_PassengerFromText(pFile, pArrayServicio);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_loadFromBinary':
+..\Controller.c:58:15: warning: implicit declaration of function 'parser_PassengerFromBinary' [-Wimplicit-function-declaration]
+   58 |  validacion = parser_PassengerFromBinary(pFile, pArrayListPassenger);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:122:2: error: unknown type name 'Passenger'
+  122 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:243:9: warning: implicit declaration of function 'Passenger_newParametros' [-Wimplicit-function-declaration]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:243:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |       ^
+..\Controller.c:253:3: warning: implicit declaration of function 'Passenger_delete' [-Wimplicit-function-declaration]
+  253 |   Passenger_delete(this);
+      |   ^~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:302:2: error: unknown type name 'Passenger'
+  302 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:308:3: warning: implicit declaration of function 'controller_ListPassenger'; did you mean 'controller_editPassenger'? [-Wimplicit-function-declaration]
+  308 |   controller_ListPassenger(pArrayListPassenger);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |   controller_editPassenger
+..\Controller.c:324:12: error: 'Passenger' undeclared (first use in this function)
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Controller.c:324:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:324:22: error: expected expression before ')' token
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Controller.c:328:4: warning: implicit declaration of function 'Passenger_list' [-Wimplicit-function-declaration]
+  328 |    Passenger_list(this);
+      |    ^~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:390:2: error: unknown type name 'Passenger'
+  390 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:407:11: error: 'Passenger' undeclared (first use in this function)
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Controller.c:407:21: error: expected expression before ')' token
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+23:43:54 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_loadFromText':
+..\Controller.c:32:15: warning: implicit declaration of function 'parser_PassengerFromText' [-Wimplicit-function-declaration]
+   32 |  validacion = parser_PassengerFromText(pFile, pArrayServicio);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_loadFromBinary':
+..\Controller.c:58:15: warning: implicit declaration of function 'parser_PassengerFromBinary' [-Wimplicit-function-declaration]
+   58 |  validacion = parser_PassengerFromBinary(pFile, pArrayListPassenger);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:122:2: error: unknown type name 'Passenger'
+  122 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:243:9: warning: implicit declaration of function 'Passenger_newParametros' [-Wimplicit-function-declaration]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:243:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |       ^
+..\Controller.c:253:3: warning: implicit declaration of function 'Passenger_delete' [-Wimplicit-function-declaration]
+  253 |   Passenger_delete(this);
+      |   ^~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:302:2: error: unknown type name 'Passenger'
+  302 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:308:3: warning: implicit declaration of function 'controller_ListPassenger'; did you mean 'controller_editPassenger'? [-Wimplicit-function-declaration]
+  308 |   controller_ListPassenger(pArrayListPassenger);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |   controller_editPassenger
+..\Controller.c:324:12: error: 'Passenger' undeclared (first use in this function)
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Controller.c:324:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:324:22: error: expected expression before ')' token
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Controller.c:328:4: warning: implicit declaration of function 'Passenger_list' [-Wimplicit-function-declaration]
+  328 |    Passenger_list(this);
+      |    ^~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:390:2: error: unknown type name 'Passenger'
+  390 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:407:11: error: 'Passenger' undeclared (first use in this function)
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Controller.c:407:21: error: expected expression before ')' token
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+23:44:01 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'SaveTxt':
+..\Passenger.c:312:2: error: unknown type name 'Passenger'
+  312 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:328:12: error: 'Passenger' undeclared (first use in this function)
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:328:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:328:22: error: expected expression before ')' token
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c:331:5: warning: implicit declaration of function 'Passenger_getId' [-Wimplicit-function-declaration]
+  331 |     Passenger_getId(this, &auxId);
+      |     ^~~~~~~~~~~~~~~
+..\Passenger.c:332:5: warning: implicit declaration of function 'Passenger_getNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  332 |     Passenger_getNombre(this, auxNombre);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarNombre
+..\Passenger.c:333:5: warning: implicit declaration of function 'Passenger_getApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  333 |     Passenger_getApellido(this, auxApellido);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByApellido
+..\Passenger.c:334:5: warning: implicit declaration of function 'Passenger_getPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  334 |     Passenger_getPrecio(this, &auxPrecio);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByPrecio
+..\Passenger.c:335:5: warning: implicit declaration of function 'Passenger_getCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  335 |     Passenger_getCodigoVuelo(this, auxCodigoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarCodigoVuelo
+..\Passenger.c:336:5: warning: implicit declaration of function 'Passenger_getTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  336 |     Passenger_getTipoPasajero(this, &auxTipoPasajero);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarTipoPasajero
+..\Passenger.c:337:5: warning: implicit declaration of function 'Passenger_getEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  337 |     Passenger_getEstadoVuelo(this, auxEstadoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+..\Passenger.c: In function 'SaveBinary':
+..\Passenger.c:373:2: error: unknown type name 'Passenger'
+  373 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:387:12: error: 'Passenger' undeclared (first use in this function)
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:387:22: error: expected expression before ')' token
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c: In function 'Passenger_compareByName':
+..\Passenger.c:406:2: error: unknown type name 'Passenger'
+  406 |  Passenger* nombrePasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:407:2: error: unknown type name 'Passenger'
+  407 |  Passenger* nombrePasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:409:23: error: 'Passenger' undeclared (first use in this function)
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:409:33: error: expected expression before ')' token
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                                 ^
+..\Passenger.c:410:33: error: expected expression before ')' token
+  410 |  nombrePasajeroDos = (Passenger*) nombreDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareByApellido':
+..\Passenger.c:439:2: error: unknown type name 'Passenger'
+  439 |  Passenger* apellidoPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:440:2: error: unknown type name 'Passenger'
+  440 |  Passenger* apellidoPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:442:25: error: 'Passenger' undeclared (first use in this function)
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                         ^~~~~~~~~
+..\Passenger.c:442:35: error: expected expression before ')' token
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                                   ^
+..\Passenger.c:443:35: error: expected expression before ')' token
+  443 |  apellidoPasajeroDos = (Passenger*) apellidoDos;
+      |                                   ^
+..\Passenger.c: In function 'Passenger_compareByPrecio':
+..\Passenger.c:472:2: error: unknown type name 'Passenger'
+  472 |  Passenger* precioPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:473:2: error: unknown type name 'Passenger'
+  473 |  Passenger* precioPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:475:23: error: 'Passenger' undeclared (first use in this function)
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:475:33: error: expected expression before ')' token
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                                 ^
+..\Passenger.c:476:33: error: expected expression before ')' token
+  476 |  precioPasajeroDos = (Passenger*) precioDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareById':
+..\Passenger.c:505:2: error: unknown type name 'Passenger'
+  505 |  Passenger* idPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:506:2: error: unknown type name 'Passenger'
+  506 |  Passenger* idPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:508:19: error: 'Passenger' undeclared (first use in this function)
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                   ^~~~~~~~~
+..\Passenger.c:508:29: error: expected expression before ')' token
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                             ^
+..\Passenger.c:509:29: error: expected expression before ')' token
+  509 |  idPasajeroDos = (Passenger*) idDos;
+      |                             ^
+..\Passenger.c: In function 'Passener_buscarId':
+..\Passenger.c:554:2: error: unknown type name 'Passenger'
+  554 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:566:13: error: 'Passenger' undeclared (first use in this function)
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |             ^~~~~~~~~
+..\Passenger.c:566:23: error: expected expression before ')' token
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                       ^
+..\Passenger.c:568:13: error: request for member 'id' in something not a structure or union
+  568 |     if (this->id == id)
+      |             ^~
+..\Passenger.c: In function 'Passenger_modificarNombre':
+..\Passenger.c:588:2: error: unknown type name 'Passenger'
+  588 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:608:11: error: 'Passenger' undeclared (first use in this function)
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:608:21: error: expected expression before ')' token
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:612:4: warning: implicit declaration of function 'Passenger_setNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  612 |    Passenger_setNombre(this, auxNombre);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarNombre
+..\Passenger.c: In function 'Passenger_modificarApellido':
+..\Passenger.c:628:2: error: unknown type name 'Passenger'
+  628 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:648:11: error: 'Passenger' undeclared (first use in this function)
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:648:21: error: expected expression before ')' token
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:652:4: warning: implicit declaration of function 'Passenger_setApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  652 |    Passenger_setApellido(this, auxApellido);
+      |    ^~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByApellido
+..\Passenger.c: In function 'Passenger_modificarPrecio':
+..\Passenger.c:667:2: error: unknown type name 'Passenger'
+  667 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:679:11: error: 'Passenger' undeclared (first use in this function)
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:679:21: error: expected expression before ')' token
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:683:4: warning: implicit declaration of function 'Passenger_setPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  683 |    Passenger_setPrecio(this, auxPrecio);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByPrecio
+..\Passenger.c: In function 'Passenger_modificarCodigoVuelo':
+..\Passenger.c:698:2: error: unknown type name 'Passenger'
+  698 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:718:11: error: 'Passenger' undeclared (first use in this function)
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:718:21: error: expected expression before ')' token
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:722:4: warning: implicit declaration of function 'Passenger_setCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  722 |    Passenger_setCodigoVuelo(this, auxCodigoVuelo);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarCodigoVuelo
+..\Passenger.c: In function 'Passenger_modificarTipoPasajero':
+..\Passenger.c:737:2: error: unknown type name 'Passenger'
+  737 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:754:11: error: 'Passenger' undeclared (first use in this function)
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:754:21: error: expected expression before ')' token
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:758:4: warning: implicit declaration of function 'Passenger_setTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  758 |    Passenger_setTipoPasajero(this, auxTipoPasajero);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarTipoPasajero
+..\Passenger.c: In function 'Passenger_modificarEstadoVuelo':
+..\Passenger.c:774:2: error: unknown type name 'Passenger'
+  774 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:806:12: error: 'Passenger' undeclared (first use in this function)
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Passenger.c:806:22: error: expected expression before ')' token
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Passenger.c:810:5: warning: implicit declaration of function 'Passenger_setEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  810 |     Passenger_setEstadoVuelo(this, auxEstadoVueloStr);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+23:44:27 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+..\parser.c: In function 'parser_ServicioFromText':
+..\parser.c:47:65: warning: format '%[^
+   ' expects a matching 'char *' argument [-Wformat=]
+   47 |   leido = fscanf(pFile, "%[^,],%[^,],%[^,],%[^,],%[^,],%[^,],%[^\n]",
+      |                                                              ~~~^~
+      |                                                                 |
+      |                                                                 char *
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_loadFromText':
+..\Controller.c:32:15: warning: implicit declaration of function 'parser_PassengerFromText' [-Wimplicit-function-declaration]
+   32 |  validacion = parser_PassengerFromText(pFile, pArrayServicio);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_loadFromBinary':
+..\Controller.c:58:15: warning: implicit declaration of function 'parser_PassengerFromBinary' [-Wimplicit-function-declaration]
+   58 |  validacion = parser_PassengerFromBinary(pFile, pArrayListPassenger);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:122:2: error: unknown type name 'Passenger'
+  122 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:243:9: warning: implicit declaration of function 'Passenger_newParametros' [-Wimplicit-function-declaration]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:243:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |       ^
+..\Controller.c:253:3: warning: implicit declaration of function 'Passenger_delete' [-Wimplicit-function-declaration]
+  253 |   Passenger_delete(this);
+      |   ^~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:302:2: error: unknown type name 'Passenger'
+  302 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:308:3: warning: implicit declaration of function 'controller_ListPassenger'; did you mean 'controller_editPassenger'? [-Wimplicit-function-declaration]
+  308 |   controller_ListPassenger(pArrayListPassenger);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |   controller_editPassenger
+..\Controller.c:324:12: error: 'Passenger' undeclared (first use in this function)
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Controller.c:324:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:324:22: error: expected expression before ')' token
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Controller.c:328:4: warning: implicit declaration of function 'Passenger_list' [-Wimplicit-function-declaration]
+  328 |    Passenger_list(this);
+      |    ^~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:390:2: error: unknown type name 'Passenger'
+  390 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:407:11: error: 'Passenger' undeclared (first use in this function)
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Controller.c:407:21: error: expected expression before ')' token
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+23:44:55 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:9: warning: unused variable 'banderaGuardadoBinario' [-Wunused-variable]
+   32 |     int banderaGuardadoBinario = 1;
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+..\main.c:31:9: warning: unused variable 'banderaGuardadoTexto' [-Wunused-variable]
+   31 |     int banderaGuardadoTexto = 1;
+      |         ^~~~~~~~~~~~~~~~~~~~
+..\main.c:30:9: warning: unused variable 'banderaBinario' [-Wunused-variable]
+   30 |     int banderaBinario = 0;
+      |         ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'SaveTxt':
+..\Passenger.c:312:2: error: unknown type name 'Passenger'
+  312 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:328:12: error: 'Passenger' undeclared (first use in this function)
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:328:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:328:22: error: expected expression before ')' token
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c:331:5: warning: implicit declaration of function 'Passenger_getId' [-Wimplicit-function-declaration]
+  331 |     Passenger_getId(this, &auxId);
+      |     ^~~~~~~~~~~~~~~
+..\Passenger.c:332:5: warning: implicit declaration of function 'Passenger_getNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  332 |     Passenger_getNombre(this, auxNombre);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarNombre
+..\Passenger.c:333:5: warning: implicit declaration of function 'Passenger_getApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  333 |     Passenger_getApellido(this, auxApellido);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByApellido
+..\Passenger.c:334:5: warning: implicit declaration of function 'Passenger_getPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  334 |     Passenger_getPrecio(this, &auxPrecio);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByPrecio
+..\Passenger.c:335:5: warning: implicit declaration of function 'Passenger_getCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  335 |     Passenger_getCodigoVuelo(this, auxCodigoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarCodigoVuelo
+..\Passenger.c:336:5: warning: implicit declaration of function 'Passenger_getTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  336 |     Passenger_getTipoPasajero(this, &auxTipoPasajero);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarTipoPasajero
+..\Passenger.c:337:5: warning: implicit declaration of function 'Passenger_getEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  337 |     Passenger_getEstadoVuelo(this, auxEstadoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+..\Passenger.c: In function 'SaveBinary':
+..\Passenger.c:373:2: error: unknown type name 'Passenger'
+  373 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:387:12: error: 'Passenger' undeclared (first use in this function)
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:387:22: error: expected expression before ')' token
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c: In function 'Passenger_compareByName':
+..\Passenger.c:406:2: error: unknown type name 'Passenger'
+  406 |  Passenger* nombrePasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:407:2: error: unknown type name 'Passenger'
+  407 |  Passenger* nombrePasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:409:23: error: 'Passenger' undeclared (first use in this function)
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:409:33: error: expected expression before ')' token
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                                 ^
+..\Passenger.c:410:33: error: expected expression before ')' token
+  410 |  nombrePasajeroDos = (Passenger*) nombreDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareByApellido':
+..\Passenger.c:439:2: error: unknown type name 'Passenger'
+  439 |  Passenger* apellidoPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:440:2: error: unknown type name 'Passenger'
+  440 |  Passenger* apellidoPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:442:25: error: 'Passenger' undeclared (first use in this function)
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                         ^~~~~~~~~
+..\Passenger.c:442:35: error: expected expression before ')' token
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                                   ^
+..\Passenger.c:443:35: error: expected expression before ')' token
+  443 |  apellidoPasajeroDos = (Passenger*) apellidoDos;
+      |                                   ^
+..\Passenger.c: In function 'Passenger_compareByPrecio':
+..\Passenger.c:472:2: error: unknown type name 'Passenger'
+  472 |  Passenger* precioPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:473:2: error: unknown type name 'Passenger'
+  473 |  Passenger* precioPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:475:23: error: 'Passenger' undeclared (first use in this function)
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:475:33: error: expected expression before ')' token
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                                 ^
+..\Passenger.c:476:33: error: expected expression before ')' token
+  476 |  precioPasajeroDos = (Passenger*) precioDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareById':
+..\Passenger.c:505:2: error: unknown type name 'Passenger'
+  505 |  Passenger* idPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:506:2: error: unknown type name 'Passenger'
+  506 |  Passenger* idPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:508:19: error: 'Passenger' undeclared (first use in this function)
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                   ^~~~~~~~~
+..\Passenger.c:508:29: error: expected expression before ')' token
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                             ^
+..\Passenger.c:509:29: error: expected expression before ')' token
+  509 |  idPasajeroDos = (Passenger*) idDos;
+      |                             ^
+..\Passenger.c: In function 'Passener_buscarId':
+..\Passenger.c:554:2: error: unknown type name 'Passenger'
+  554 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:566:13: error: 'Passenger' undeclared (first use in this function)
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |             ^~~~~~~~~
+..\Passenger.c:566:23: error: expected expression before ')' token
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                       ^
+..\Passenger.c:568:13: error: request for member 'id' in something not a structure or union
+  568 |     if (this->id == id)
+      |             ^~
+..\Passenger.c: In function 'Passenger_modificarNombre':
+..\Passenger.c:588:2: error: unknown type name 'Passenger'
+  588 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:608:11: error: 'Passenger' undeclared (first use in this function)
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:608:21: error: expected expression before ')' token
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:612:4: warning: implicit declaration of function 'Passenger_setNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  612 |    Passenger_setNombre(this, auxNombre);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarNombre
+..\Passenger.c: In function 'Passenger_modificarApellido':
+..\Passenger.c:628:2: error: unknown type name 'Passenger'
+  628 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:648:11: error: 'Passenger' undeclared (first use in this function)
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:648:21: error: expected expression before ')' token
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:652:4: warning: implicit declaration of function 'Passenger_setApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  652 |    Passenger_setApellido(this, auxApellido);
+      |    ^~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByApellido
+..\Passenger.c: In function 'Passenger_modificarPrecio':
+..\Passenger.c:667:2: error: unknown type name 'Passenger'
+  667 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:679:11: error: 'Passenger' undeclared (first use in this function)
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:679:21: error: expected expression before ')' token
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:683:4: warning: implicit declaration of function 'Passenger_setPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  683 |    Passenger_setPrecio(this, auxPrecio);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByPrecio
+..\Passenger.c: In function 'Passenger_modificarCodigoVuelo':
+..\Passenger.c:698:2: error: unknown type name 'Passenger'
+  698 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:718:11: error: 'Passenger' undeclared (first use in this function)
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:718:21: error: expected expression before ')' token
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:722:4: warning: implicit declaration of function 'Passenger_setCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  722 |    Passenger_setCodigoVuelo(this, auxCodigoVuelo);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarCodigoVuelo
+..\Passenger.c: In function 'Passenger_modificarTipoPasajero':
+..\Passenger.c:737:2: error: unknown type name 'Passenger'
+  737 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:754:11: error: 'Passenger' undeclared (first use in this function)
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:754:21: error: expected expression before ')' token
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:758:4: warning: implicit declaration of function 'Passenger_setTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  758 |    Passenger_setTipoPasajero(this, auxTipoPasajero);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarTipoPasajero
+..\Passenger.c: In function 'Passenger_modificarEstadoVuelo':
+..\Passenger.c:774:2: error: unknown type name 'Passenger'
+  774 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:806:12: error: 'Passenger' undeclared (first use in this function)
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Passenger.c:806:22: error: expected expression before ')' token
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Passenger.c:810:5: warning: implicit declaration of function 'Passenger_setEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  810 |     Passenger_setEstadoVuelo(this, auxEstadoVueloStr);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+23:45:41 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_loadFromText':
+..\Controller.c:32:15: warning: implicit declaration of function 'parser_PassengerFromText' [-Wimplicit-function-declaration]
+   32 |  validacion = parser_PassengerFromText(pFile, pArrayServicio);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_loadFromBinary':
+..\Controller.c:58:15: warning: implicit declaration of function 'parser_PassengerFromBinary' [-Wimplicit-function-declaration]
+   58 |  validacion = parser_PassengerFromBinary(pFile, pArrayListPassenger);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:122:2: error: unknown type name 'Passenger'
+  122 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:243:9: warning: implicit declaration of function 'Passenger_newParametros' [-Wimplicit-function-declaration]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:243:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |       ^
+..\Controller.c:253:3: warning: implicit declaration of function 'Passenger_delete' [-Wimplicit-function-declaration]
+  253 |   Passenger_delete(this);
+      |   ^~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:302:2: error: unknown type name 'Passenger'
+  302 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:308:3: warning: implicit declaration of function 'controller_ListPassenger'; did you mean 'controller_editPassenger'? [-Wimplicit-function-declaration]
+  308 |   controller_ListPassenger(pArrayListPassenger);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |   controller_editPassenger
+..\Controller.c:324:12: error: 'Passenger' undeclared (first use in this function)
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Controller.c:324:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:324:22: error: expected expression before ')' token
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Controller.c:328:4: warning: implicit declaration of function 'Passenger_list' [-Wimplicit-function-declaration]
+  328 |    Passenger_list(this);
+      |    ^~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:390:2: error: unknown type name 'Passenger'
+  390 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:407:11: error: 'Passenger' undeclared (first use in this function)
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Controller.c:407:21: error: expected expression before ')' token
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+23:46:20 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'SaveTxt':
+..\Passenger.c:312:2: error: unknown type name 'Passenger'
+  312 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:328:12: error: 'Passenger' undeclared (first use in this function)
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:328:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:328:22: error: expected expression before ')' token
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c:331:5: warning: implicit declaration of function 'Passenger_getId' [-Wimplicit-function-declaration]
+  331 |     Passenger_getId(this, &auxId);
+      |     ^~~~~~~~~~~~~~~
+..\Passenger.c:332:5: warning: implicit declaration of function 'Passenger_getNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  332 |     Passenger_getNombre(this, auxNombre);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarNombre
+..\Passenger.c:333:5: warning: implicit declaration of function 'Passenger_getApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  333 |     Passenger_getApellido(this, auxApellido);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByApellido
+..\Passenger.c:334:5: warning: implicit declaration of function 'Passenger_getPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  334 |     Passenger_getPrecio(this, &auxPrecio);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByPrecio
+..\Passenger.c:335:5: warning: implicit declaration of function 'Passenger_getCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  335 |     Passenger_getCodigoVuelo(this, auxCodigoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarCodigoVuelo
+..\Passenger.c:336:5: warning: implicit declaration of function 'Passenger_getTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  336 |     Passenger_getTipoPasajero(this, &auxTipoPasajero);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarTipoPasajero
+..\Passenger.c:337:5: warning: implicit declaration of function 'Passenger_getEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  337 |     Passenger_getEstadoVuelo(this, auxEstadoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+..\Passenger.c: In function 'SaveBinary':
+..\Passenger.c:373:2: error: unknown type name 'Passenger'
+  373 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:387:12: error: 'Passenger' undeclared (first use in this function)
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:387:22: error: expected expression before ')' token
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c: In function 'Passenger_compareByName':
+..\Passenger.c:406:2: error: unknown type name 'Passenger'
+  406 |  Passenger* nombrePasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:407:2: error: unknown type name 'Passenger'
+  407 |  Passenger* nombrePasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:409:23: error: 'Passenger' undeclared (first use in this function)
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:409:33: error: expected expression before ')' token
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                                 ^
+..\Passenger.c:410:33: error: expected expression before ')' token
+  410 |  nombrePasajeroDos = (Passenger*) nombreDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareByApellido':
+..\Passenger.c:439:2: error: unknown type name 'Passenger'
+  439 |  Passenger* apellidoPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:440:2: error: unknown type name 'Passenger'
+  440 |  Passenger* apellidoPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:442:25: error: 'Passenger' undeclared (first use in this function)
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                         ^~~~~~~~~
+..\Passenger.c:442:35: error: expected expression before ')' token
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                                   ^
+..\Passenger.c:443:35: error: expected expression before ')' token
+  443 |  apellidoPasajeroDos = (Passenger*) apellidoDos;
+      |                                   ^
+..\Passenger.c: In function 'Passenger_compareByPrecio':
+..\Passenger.c:472:2: error: unknown type name 'Passenger'
+  472 |  Passenger* precioPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:473:2: error: unknown type name 'Passenger'
+  473 |  Passenger* precioPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:475:23: error: 'Passenger' undeclared (first use in this function)
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:475:33: error: expected expression before ')' token
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                                 ^
+..\Passenger.c:476:33: error: expected expression before ')' token
+  476 |  precioPasajeroDos = (Passenger*) precioDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareById':
+..\Passenger.c:505:2: error: unknown type name 'Passenger'
+  505 |  Passenger* idPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:506:2: error: unknown type name 'Passenger'
+  506 |  Passenger* idPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:508:19: error: 'Passenger' undeclared (first use in this function)
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                   ^~~~~~~~~
+..\Passenger.c:508:29: error: expected expression before ')' token
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                             ^
+..\Passenger.c:509:29: error: expected expression before ')' token
+  509 |  idPasajeroDos = (Passenger*) idDos;
+      |                             ^
+..\Passenger.c: In function 'Passener_buscarId':
+..\Passenger.c:554:2: error: unknown type name 'Passenger'
+  554 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:566:13: error: 'Passenger' undeclared (first use in this function)
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |             ^~~~~~~~~
+..\Passenger.c:566:23: error: expected expression before ')' token
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                       ^
+..\Passenger.c:568:13: error: request for member 'id' in something not a structure or union
+  568 |     if (this->id == id)
+      |             ^~
+..\Passenger.c: In function 'Passenger_modificarNombre':
+..\Passenger.c:588:2: error: unknown type name 'Passenger'
+  588 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:608:11: error: 'Passenger' undeclared (first use in this function)
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:608:21: error: expected expression before ')' token
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:612:4: warning: implicit declaration of function 'Passenger_setNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  612 |    Passenger_setNombre(this, auxNombre);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarNombre
+..\Passenger.c: In function 'Passenger_modificarApellido':
+..\Passenger.c:628:2: error: unknown type name 'Passenger'
+  628 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:648:11: error: 'Passenger' undeclared (first use in this function)
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:648:21: error: expected expression before ')' token
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:652:4: warning: implicit declaration of function 'Passenger_setApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  652 |    Passenger_setApellido(this, auxApellido);
+      |    ^~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByApellido
+..\Passenger.c: In function 'Passenger_modificarPrecio':
+..\Passenger.c:667:2: error: unknown type name 'Passenger'
+  667 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:679:11: error: 'Passenger' undeclared (first use in this function)
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:679:21: error: expected expression before ')' token
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:683:4: warning: implicit declaration of function 'Passenger_setPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  683 |    Passenger_setPrecio(this, auxPrecio);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByPrecio
+..\Passenger.c: In function 'Passenger_modificarCodigoVuelo':
+..\Passenger.c:698:2: error: unknown type name 'Passenger'
+  698 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:718:11: error: 'Passenger' undeclared (first use in this function)
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:718:21: error: expected expression before ')' token
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:722:4: warning: implicit declaration of function 'Passenger_setCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  722 |    Passenger_setCodigoVuelo(this, auxCodigoVuelo);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarCodigoVuelo
+..\Passenger.c: In function 'Passenger_modificarTipoPasajero':
+..\Passenger.c:737:2: error: unknown type name 'Passenger'
+  737 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:754:11: error: 'Passenger' undeclared (first use in this function)
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:754:21: error: expected expression before ')' token
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:758:4: warning: implicit declaration of function 'Passenger_setTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  758 |    Passenger_setTipoPasajero(this, auxTipoPasajero);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarTipoPasajero
+..\Passenger.c: In function 'Passenger_modificarEstadoVuelo':
+..\Passenger.c:774:2: error: unknown type name 'Passenger'
+  774 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:806:12: error: 'Passenger' undeclared (first use in this function)
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Passenger.c:806:22: error: expected expression before ')' token
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Passenger.c:810:5: warning: implicit declaration of function 'Passenger_setEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  810 |     Passenger_setEstadoVuelo(this, auxEstadoVueloStr);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+23:46:54 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_loadFromText':
+..\Controller.c:32:15: warning: implicit declaration of function 'parser_PassengerFromText' [-Wimplicit-function-declaration]
+   32 |  validacion = parser_PassengerFromText(pFile, pArrayServicio);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_loadFromBinary':
+..\Controller.c:58:15: warning: implicit declaration of function 'parser_PassengerFromBinary' [-Wimplicit-function-declaration]
+   58 |  validacion = parser_PassengerFromBinary(pFile, pArrayListPassenger);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:122:2: error: unknown type name 'Passenger'
+  122 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:243:9: warning: implicit declaration of function 'Passenger_newParametros' [-Wimplicit-function-declaration]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:243:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |       ^
+..\Controller.c:253:3: warning: implicit declaration of function 'Passenger_delete' [-Wimplicit-function-declaration]
+  253 |   Passenger_delete(this);
+      |   ^~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:302:2: error: unknown type name 'Passenger'
+  302 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:308:3: warning: implicit declaration of function 'controller_ListPassenger'; did you mean 'controller_editPassenger'? [-Wimplicit-function-declaration]
+  308 |   controller_ListPassenger(pArrayListPassenger);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |   controller_editPassenger
+..\Controller.c:324:12: error: 'Passenger' undeclared (first use in this function)
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Controller.c:324:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:324:22: error: expected expression before ')' token
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Controller.c:328:4: warning: implicit declaration of function 'Passenger_list' [-Wimplicit-function-declaration]
+  328 |    Passenger_list(this);
+      |    ^~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:390:2: error: unknown type name 'Passenger'
+  390 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:407:11: error: 'Passenger' undeclared (first use in this function)
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Controller.c:407:21: error: expected expression before ')' token
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+23:47:35 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:32:9: warning: unused variable 'banderaGuardadoBinario' [-Wunused-variable]
+   32 |     int banderaGuardadoBinario = 1;
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+..\main.c:31:9: warning: unused variable 'banderaGuardadoTexto' [-Wunused-variable]
+   31 |     int banderaGuardadoTexto = 1;
+      |         ^~~~~~~~~~~~~~~~~~~~
+..\main.c:30:9: warning: unused variable 'banderaBinario' [-Wunused-variable]
+   30 |     int banderaBinario = 0;
+      |         ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'SaveTxt':
+..\Passenger.c:312:2: error: unknown type name 'Passenger'
+  312 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:328:12: error: 'Passenger' undeclared (first use in this function)
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:328:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:328:22: error: expected expression before ')' token
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c:331:5: warning: implicit declaration of function 'Passenger_getId' [-Wimplicit-function-declaration]
+  331 |     Passenger_getId(this, &auxId);
+      |     ^~~~~~~~~~~~~~~
+..\Passenger.c:332:5: warning: implicit declaration of function 'Passenger_getNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  332 |     Passenger_getNombre(this, auxNombre);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarNombre
+..\Passenger.c:333:5: warning: implicit declaration of function 'Passenger_getApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  333 |     Passenger_getApellido(this, auxApellido);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByApellido
+..\Passenger.c:334:5: warning: implicit declaration of function 'Passenger_getPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  334 |     Passenger_getPrecio(this, &auxPrecio);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByPrecio
+..\Passenger.c:335:5: warning: implicit declaration of function 'Passenger_getCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  335 |     Passenger_getCodigoVuelo(this, auxCodigoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarCodigoVuelo
+..\Passenger.c:336:5: warning: implicit declaration of function 'Passenger_getTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  336 |     Passenger_getTipoPasajero(this, &auxTipoPasajero);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarTipoPasajero
+..\Passenger.c:337:5: warning: implicit declaration of function 'Passenger_getEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  337 |     Passenger_getEstadoVuelo(this, auxEstadoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+..\Passenger.c: In function 'SaveBinary':
+..\Passenger.c:373:2: error: unknown type name 'Passenger'
+  373 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:387:12: error: 'Passenger' undeclared (first use in this function)
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:387:22: error: expected expression before ')' token
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c: In function 'Passenger_compareByName':
+..\Passenger.c:406:2: error: unknown type name 'Passenger'
+  406 |  Passenger* nombrePasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:407:2: error: unknown type name 'Passenger'
+  407 |  Passenger* nombrePasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:409:23: error: 'Passenger' undeclared (first use in this function)
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:409:33: error: expected expression before ')' token
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                                 ^
+..\Passenger.c:410:33: error: expected expression before ')' token
+  410 |  nombrePasajeroDos = (Passenger*) nombreDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareByApellido':
+..\Passenger.c:439:2: error: unknown type name 'Passenger'
+  439 |  Passenger* apellidoPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:440:2: error: unknown type name 'Passenger'
+  440 |  Passenger* apellidoPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:442:25: error: 'Passenger' undeclared (first use in this function)
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                         ^~~~~~~~~
+..\Passenger.c:442:35: error: expected expression before ')' token
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                                   ^
+..\Passenger.c:443:35: error: expected expression before ')' token
+  443 |  apellidoPasajeroDos = (Passenger*) apellidoDos;
+      |                                   ^
+..\Passenger.c: In function 'Passenger_compareByPrecio':
+..\Passenger.c:472:2: error: unknown type name 'Passenger'
+  472 |  Passenger* precioPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:473:2: error: unknown type name 'Passenger'
+  473 |  Passenger* precioPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:475:23: error: 'Passenger' undeclared (first use in this function)
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:475:33: error: expected expression before ')' token
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                                 ^
+..\Passenger.c:476:33: error: expected expression before ')' token
+  476 |  precioPasajeroDos = (Passenger*) precioDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareById':
+..\Passenger.c:505:2: error: unknown type name 'Passenger'
+  505 |  Passenger* idPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:506:2: error: unknown type name 'Passenger'
+  506 |  Passenger* idPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:508:19: error: 'Passenger' undeclared (first use in this function)
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                   ^~~~~~~~~
+..\Passenger.c:508:29: error: expected expression before ')' token
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                             ^
+..\Passenger.c:509:29: error: expected expression before ')' token
+  509 |  idPasajeroDos = (Passenger*) idDos;
+      |                             ^
+..\Passenger.c: In function 'Passener_buscarId':
+..\Passenger.c:554:2: error: unknown type name 'Passenger'
+  554 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:566:13: error: 'Passenger' undeclared (first use in this function)
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |             ^~~~~~~~~
+..\Passenger.c:566:23: error: expected expression before ')' token
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                       ^
+..\Passenger.c:568:13: error: request for member 'id' in something not a structure or union
+  568 |     if (this->id == id)
+      |             ^~
+..\Passenger.c: In function 'Passenger_modificarNombre':
+..\Passenger.c:588:2: error: unknown type name 'Passenger'
+  588 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:608:11: error: 'Passenger' undeclared (first use in this function)
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:608:21: error: expected expression before ')' token
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:612:4: warning: implicit declaration of function 'Passenger_setNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  612 |    Passenger_setNombre(this, auxNombre);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarNombre
+..\Passenger.c: In function 'Passenger_modificarApellido':
+..\Passenger.c:628:2: error: unknown type name 'Passenger'
+  628 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:648:11: error: 'Passenger' undeclared (first use in this function)
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:648:21: error: expected expression before ')' token
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:652:4: warning: implicit declaration of function 'Passenger_setApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  652 |    Passenger_setApellido(this, auxApellido);
+      |    ^~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByApellido
+..\Passenger.c: In function 'Passenger_modificarPrecio':
+..\Passenger.c:667:2: error: unknown type name 'Passenger'
+  667 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:679:11: error: 'Passenger' undeclared (first use in this function)
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:679:21: error: expected expression before ')' token
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:683:4: warning: implicit declaration of function 'Passenger_setPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  683 |    Passenger_setPrecio(this, auxPrecio);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByPrecio
+..\Passenger.c: In function 'Passenger_modificarCodigoVuelo':
+..\Passenger.c:698:2: error: unknown type name 'Passenger'
+  698 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:718:11: error: 'Passenger' undeclared (first use in this function)
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:718:21: error: expected expression before ')' token
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:722:4: warning: implicit declaration of function 'Passenger_setCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  722 |    Passenger_setCodigoVuelo(this, auxCodigoVuelo);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarCodigoVuelo
+..\Passenger.c: In function 'Passenger_modificarTipoPasajero':
+..\Passenger.c:737:2: error: unknown type name 'Passenger'
+  737 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:754:11: error: 'Passenger' undeclared (first use in this function)
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:754:21: error: expected expression before ')' token
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:758:4: warning: implicit declaration of function 'Passenger_setTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  758 |    Passenger_setTipoPasajero(this, auxTipoPasajero);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarTipoPasajero
+..\Passenger.c: In function 'Passenger_modificarEstadoVuelo':
+..\Passenger.c:774:2: error: unknown type name 'Passenger'
+  774 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:806:12: error: 'Passenger' undeclared (first use in this function)
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Passenger.c:806:22: error: expected expression before ')' token
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Passenger.c:810:5: warning: implicit declaration of function 'Passenger_setEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  810 |     Passenger_setEstadoVuelo(this, auxEstadoVueloStr);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+23:48:09 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_loadFromBinary':
+..\Controller.c:58:15: warning: implicit declaration of function 'parser_PassengerFromBinary' [-Wimplicit-function-declaration]
+   58 |  validacion = parser_PassengerFromBinary(pFile, pArrayListPassenger);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:122:2: error: unknown type name 'Passenger'
+  122 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:243:9: warning: implicit declaration of function 'Passenger_newParametros' [-Wimplicit-function-declaration]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:243:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  243 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |       ^
+..\Controller.c:253:3: warning: implicit declaration of function 'Passenger_delete' [-Wimplicit-function-declaration]
+  253 |   Passenger_delete(this);
+      |   ^~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:302:2: error: unknown type name 'Passenger'
+  302 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:308:3: warning: implicit declaration of function 'controller_ListPassenger'; did you mean 'controller_editPassenger'? [-Wimplicit-function-declaration]
+  308 |   controller_ListPassenger(pArrayListPassenger);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |   controller_editPassenger
+..\Controller.c:324:12: error: 'Passenger' undeclared (first use in this function)
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Controller.c:324:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:324:22: error: expected expression before ')' token
+  324 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Controller.c:328:4: warning: implicit declaration of function 'Passenger_list' [-Wimplicit-function-declaration]
+  328 |    Passenger_list(this);
+      |    ^~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:390:2: error: unknown type name 'Passenger'
+  390 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:407:11: error: 'Passenger' undeclared (first use in this function)
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Controller.c:407:21: error: expected expression before ')' token
+  407 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+23:48:24 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'SaveTxt':
+..\Passenger.c:312:2: error: unknown type name 'Passenger'
+  312 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:328:12: error: 'Passenger' undeclared (first use in this function)
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:328:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:328:22: error: expected expression before ')' token
+  328 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c:331:5: warning: implicit declaration of function 'Passenger_getId' [-Wimplicit-function-declaration]
+  331 |     Passenger_getId(this, &auxId);
+      |     ^~~~~~~~~~~~~~~
+..\Passenger.c:332:5: warning: implicit declaration of function 'Passenger_getNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  332 |     Passenger_getNombre(this, auxNombre);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarNombre
+..\Passenger.c:333:5: warning: implicit declaration of function 'Passenger_getApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  333 |     Passenger_getApellido(this, auxApellido);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByApellido
+..\Passenger.c:334:5: warning: implicit declaration of function 'Passenger_getPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  334 |     Passenger_getPrecio(this, &auxPrecio);
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     Passenger_compareByPrecio
+..\Passenger.c:335:5: warning: implicit declaration of function 'Passenger_getCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  335 |     Passenger_getCodigoVuelo(this, auxCodigoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarCodigoVuelo
+..\Passenger.c:336:5: warning: implicit declaration of function 'Passenger_getTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  336 |     Passenger_getTipoPasajero(this, &auxTipoPasajero);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarTipoPasajero
+..\Passenger.c:337:5: warning: implicit declaration of function 'Passenger_getEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  337 |     Passenger_getEstadoVuelo(this, auxEstadoVuelo);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+..\Passenger.c: In function 'SaveBinary':
+..\Passenger.c:373:2: error: unknown type name 'Passenger'
+  373 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:387:12: error: 'Passenger' undeclared (first use in this function)
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |            ^~~~~~~~~
+..\Passenger.c:387:22: error: expected expression before ')' token
+  387 |    this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                      ^
+..\Passenger.c: In function 'Passenger_compareByName':
+..\Passenger.c:406:2: error: unknown type name 'Passenger'
+  406 |  Passenger* nombrePasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:407:2: error: unknown type name 'Passenger'
+  407 |  Passenger* nombrePasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:409:23: error: 'Passenger' undeclared (first use in this function)
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:409:33: error: expected expression before ')' token
+  409 |  nombrePasajeroUno = (Passenger*) nombreUno;
+      |                                 ^
+..\Passenger.c:410:33: error: expected expression before ')' token
+  410 |  nombrePasajeroDos = (Passenger*) nombreDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareByApellido':
+..\Passenger.c:439:2: error: unknown type name 'Passenger'
+  439 |  Passenger* apellidoPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:440:2: error: unknown type name 'Passenger'
+  440 |  Passenger* apellidoPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:442:25: error: 'Passenger' undeclared (first use in this function)
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                         ^~~~~~~~~
+..\Passenger.c:442:35: error: expected expression before ')' token
+  442 |  apellidoPasajeroUno = (Passenger*) apellidoUno;
+      |                                   ^
+..\Passenger.c:443:35: error: expected expression before ')' token
+  443 |  apellidoPasajeroDos = (Passenger*) apellidoDos;
+      |                                   ^
+..\Passenger.c: In function 'Passenger_compareByPrecio':
+..\Passenger.c:472:2: error: unknown type name 'Passenger'
+  472 |  Passenger* precioPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:473:2: error: unknown type name 'Passenger'
+  473 |  Passenger* precioPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:475:23: error: 'Passenger' undeclared (first use in this function)
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                       ^~~~~~~~~
+..\Passenger.c:475:33: error: expected expression before ')' token
+  475 |  precioPasajeroUno = (Passenger*) precioUno;
+      |                                 ^
+..\Passenger.c:476:33: error: expected expression before ')' token
+  476 |  precioPasajeroDos = (Passenger*) precioDos;
+      |                                 ^
+..\Passenger.c: In function 'Passenger_compareById':
+..\Passenger.c:505:2: error: unknown type name 'Passenger'
+  505 |  Passenger* idPasajeroUno;
+      |  ^~~~~~~~~
+..\Passenger.c:506:2: error: unknown type name 'Passenger'
+  506 |  Passenger* idPasajeroDos;
+      |  ^~~~~~~~~
+..\Passenger.c:508:19: error: 'Passenger' undeclared (first use in this function)
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                   ^~~~~~~~~
+..\Passenger.c:508:29: error: expected expression before ')' token
+  508 |  idPasajeroUno = (Passenger*) idUno;
+      |                             ^
+..\Passenger.c:509:29: error: expected expression before ')' token
+  509 |  idPasajeroDos = (Passenger*) idDos;
+      |                             ^
+..\Passenger.c: In function 'Passener_buscarId':
+..\Passenger.c:554:2: error: unknown type name 'Passenger'
+  554 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:566:13: error: 'Passenger' undeclared (first use in this function)
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |             ^~~~~~~~~
+..\Passenger.c:566:23: error: expected expression before ')' token
+  566 |     this = (Passenger*) ll_get(pArrayListPassenger, i);
+      |                       ^
+..\Passenger.c:568:13: error: request for member 'id' in something not a structure or union
+  568 |     if (this->id == id)
+      |             ^~
+..\Passenger.c: In function 'Passenger_modificarNombre':
+..\Passenger.c:588:2: error: unknown type name 'Passenger'
+  588 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:608:11: error: 'Passenger' undeclared (first use in this function)
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:608:21: error: expected expression before ')' token
+  608 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:612:4: warning: implicit declaration of function 'Passenger_setNombre'; did you mean 'Passenger_modificarNombre'? [-Wimplicit-function-declaration]
+  612 |    Passenger_setNombre(this, auxNombre);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarNombre
+..\Passenger.c: In function 'Passenger_modificarApellido':
+..\Passenger.c:628:2: error: unknown type name 'Passenger'
+  628 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:648:11: error: 'Passenger' undeclared (first use in this function)
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:648:21: error: expected expression before ')' token
+  648 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:652:4: warning: implicit declaration of function 'Passenger_setApellido'; did you mean 'Passenger_compareByApellido'? [-Wimplicit-function-declaration]
+  652 |    Passenger_setApellido(this, auxApellido);
+      |    ^~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByApellido
+..\Passenger.c: In function 'Passenger_modificarPrecio':
+..\Passenger.c:667:2: error: unknown type name 'Passenger'
+  667 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:679:11: error: 'Passenger' undeclared (first use in this function)
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:679:21: error: expected expression before ')' token
+  679 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:683:4: warning: implicit declaration of function 'Passenger_setPrecio'; did you mean 'Passenger_compareByPrecio'? [-Wimplicit-function-declaration]
+  683 |    Passenger_setPrecio(this, auxPrecio);
+      |    ^~~~~~~~~~~~~~~~~~~
+      |    Passenger_compareByPrecio
+..\Passenger.c: In function 'Passenger_modificarCodigoVuelo':
+..\Passenger.c:698:2: error: unknown type name 'Passenger'
+  698 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:718:11: error: 'Passenger' undeclared (first use in this function)
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:718:21: error: expected expression before ')' token
+  718 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:722:4: warning: implicit declaration of function 'Passenger_setCodigoVuelo'; did you mean 'Passenger_modificarCodigoVuelo'? [-Wimplicit-function-declaration]
+  722 |    Passenger_setCodigoVuelo(this, auxCodigoVuelo);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarCodigoVuelo
+..\Passenger.c: In function 'Passenger_modificarTipoPasajero':
+..\Passenger.c:737:2: error: unknown type name 'Passenger'
+  737 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:754:11: error: 'Passenger' undeclared (first use in this function)
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Passenger.c:754:21: error: expected expression before ')' token
+  754 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+..\Passenger.c:758:4: warning: implicit declaration of function 'Passenger_setTipoPasajero'; did you mean 'Passenger_modificarTipoPasajero'? [-Wimplicit-function-declaration]
+  758 |    Passenger_setTipoPasajero(this, auxTipoPasajero);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |    Passenger_modificarTipoPasajero
+..\Passenger.c: In function 'Passenger_modificarEstadoVuelo':
+..\Passenger.c:774:2: error: unknown type name 'Passenger'
+  774 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Passenger.c:806:12: error: 'Passenger' undeclared (first use in this function)
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Passenger.c:806:22: error: expected expression before ')' token
+  806 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Passenger.c:810:5: warning: implicit declaration of function 'Passenger_setEstadoVuelo'; did you mean 'Passenger_modificarEstadoVuelo'? [-Wimplicit-function-declaration]
+  810 |     Passenger_setEstadoVuelo(this, auxEstadoVueloStr);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+      |     Passenger_modificarEstadoVuelo
+23:48:58 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:102:2: error: unknown type name 'Passenger'
+  102 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:223:9: warning: implicit declaration of function 'Passenger_newParametros' [-Wimplicit-function-declaration]
+  223 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:223:7: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  223 |  this = Passenger_newParametros(auxIdStr, auxNombre, auxApellido, auxPrecioStr, auxTipoPasajeroStr, auxCodigoVuelo, auxEstadoVueloStr);
+      |       ^
+..\Controller.c:233:3: warning: implicit declaration of function 'Passenger_delete' [-Wimplicit-function-declaration]
+  233 |   Passenger_delete(this);
+      |   ^~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:282:2: error: unknown type name 'Passenger'
+  282 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:288:3: warning: implicit declaration of function 'controller_ListPassenger'; did you mean 'controller_editPassenger'? [-Wimplicit-function-declaration]
+  288 |   controller_ListPassenger(pArrayListPassenger);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+      |   controller_editPassenger
+..\Controller.c:304:12: error: 'Passenger' undeclared (first use in this function)
+  304 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |            ^~~~~~~~~
+..\Controller.c:304:12: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:304:22: error: expected expression before ')' token
+  304 |    this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                      ^
+..\Controller.c:308:4: warning: implicit declaration of function 'Passenger_list' [-Wimplicit-function-declaration]
+  308 |    Passenger_list(this);
+      |    ^~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:370:2: error: unknown type name 'Passenger'
+  370 |  Passenger* this;
+      |  ^~~~~~~~~
+..\Controller.c:387:11: error: 'Passenger' undeclared (first use in this function)
+  387 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |           ^~~~~~~~~
+..\Controller.c:387:21: error: expected expression before ')' token
+  387 |   this = (Passenger*) ll_get(pArrayListPassenger, indice);
+      |                     ^
+23:49:47 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: main.o: in function `main':
+D:\OneDrive\Escritorio\PARCIAL_LABO[2]\PARCIAL_[1]\Debug/../main.c:73: undefined reference to `Passenger_compareById'
+collect2.exe: error: ld returned 1 exit status
+23:50:10 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:51:11 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:52:14 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:52:38 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:52:51 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:53:19 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:55:39 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+23:55:57 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:00:54 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:01:29 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:02:10 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:02:33 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:03:02 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:03:24 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:04:42 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:06:06 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:07:25 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+00:08:40 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
