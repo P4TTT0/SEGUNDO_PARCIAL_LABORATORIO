@@ -580,11 +580,64 @@ int controller_filtrarServicio(LinkedList* pArrayServicio)
 int controller_sortService(LinkedList* pArrayListServicio)
 {
 	int validacion = 0;
+	int opcion;
+	int criterio;
 
-
-	if (pArrayListServicio != NULL)
+	if (pArrayListPassenger != NULL)
 	{
-		validacion = ll_sort(pArrayListServicio, Servicio_compareByDescripcion, 1);
+		do
+		{
+			printf("||----< | [ORDENAR PASAJEROS] | >---||\n\n"
+
+			"[1] | Ordenar por [NOMBRE]\n"
+			"[2] | Ordenar por [APELLIDO]\n"
+			"[3] | Ordenar por [PRECIO]\n"
+			"[4] | Ordenar por [ID]\n\n"
+			"[5] | [SALIR] \n\n"
+
+
+			"||--->[INGRESAR OPCION]:");
+
+			fflush(stdin);
+			scanf("%d", &opcion);
+
+			switch(opcion)
+			{
+				case 1:
+					criterio = criterioOrdenamiento();
+					ll_sort(pArrayListPassenger, Passenger_compareByName, criterio);
+					validacion = 1;
+				break;
+
+				case 2:
+					criterio = criterioOrdenamiento();
+					ll_sort(pArrayListPassenger, Passenger_compareByApellido, criterio);
+					validacion = 1;
+				break;
+
+				case 3:
+					criterio = criterioOrdenamiento();
+					ll_sort(pArrayListPassenger, Passenger_compareByPrecio, criterio);
+					validacion = 1;
+				break;
+
+				case 4:
+					criterio = criterioOrdenamiento();
+					ll_sort(pArrayListPassenger, Passenger_compareById, criterio);
+					validacion = 1;
+				break;
+
+				case 5:
+					printf("|| - [VOLIENVO AL MENU] - ||\n");
+				break;
+
+				default:
+					printf("|| [ERROR] - OPCION INVALIDA.\n");
+					system("pause");
+				break;
+			}
+
+		}while (opcion != 5);
 	}
     return validacion;
 }

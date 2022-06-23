@@ -358,47 +358,16 @@ int filtrarExportar(void* elemento)
 int Servicio_compareByDescripcion(void* servicioUno, void* servicioDos)
 {
 	char auxServicioUno[50];
-	char auxServicioDos[50];
-	int comparacion;
+	int auxServicioDos;
 
 	eServicio* primerServicio = servicioUno;
 	eServicio* segundoServicio = servicioDos;
 
-	Servicio_getDescripcion(primerServicio, auxServicioUno);
-	Servicio_getDescripcion(segundoServicio, auxServicioDos);
+	Servicio_getDescripcion(primerServicio, descripcion)
 
-	comparacion = strcmp(auxServicioUno, auxServicioDos);
-
-	return comparacion;
-}
-
-int Servicio_compareById(void* idUno, void* idDos)
-{
-	int auxIdUno;
-	int auxIdDos;
 	int comparacion;
 
-	eServicio* idServicioUno = (eServicio*) idUno;
-	eServicio* idServicioDos = (eServicio*) idDos;
-
-	Servicio_getId(idServicioUno, &auxIdUno);
-	Servicio_getId(idServicioDos, &auxIdDos);
-
-	if(auxIdUno == auxIdDos)
-		{
-			comparacion = 0;
-		}
-		else
-		{
-			if (auxIdUno > auxIdDos)
-			{
-				comparacion = 1;
-			}
-			else
-			{
-				comparacion = -1;
-			}
-		}
+	comparacion = strcmp(primerServicio->descripcion, segundoServicio->descripcion);
 
 	return comparacion;
 }

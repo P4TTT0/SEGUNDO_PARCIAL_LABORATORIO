@@ -110,8 +110,14 @@ int filtrarMinorista(void* elemento);
 int filtrarMayorista(void* elemento);
 int filtrarExportar(void* elemento);
 
-int Servicio_compareByDescripcion(void* servicioUno, void* servicioDos);
-int Servicio_compareById(void* idUno, void* idDos);
+int Servicio_compareByDescripcion(void* servicioUno, void* servicioDos)
+{
+	eServicio* primerServicio = servicioUno;
+	eServicio* segundoServicio = servicioDos;
+	int comparacion;
+	comparacion = strcmp(primerServicio->descripcion, segundoServicio->descripcion);
+	return comparacion;
+}
 
 /// @fn int SaveTxt(FILE*, LinkedList*)
 /// @brief Recibe un archivo abierto en forma de escritura de texto para realizar un guardado de todos los pasajeros

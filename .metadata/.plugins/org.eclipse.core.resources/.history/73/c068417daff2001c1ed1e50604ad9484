@@ -8,7 +8,7 @@ int controller_removePassenger(LinkedList* pArrayListPassenger);
 int controller_ListServicio(LinkedList* pArrayServicio);
 void controller_subListaFiltrar(LinkedList* nuevaLista, int option);
 int controller_filtrarServicio(LinkedList* pArrayServicio);
-int controller_sortService(LinkedList* pArrayListServicio);
+int controller_sortPassenger(LinkedList* pArrayListPassenger);
 int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger);
 
 

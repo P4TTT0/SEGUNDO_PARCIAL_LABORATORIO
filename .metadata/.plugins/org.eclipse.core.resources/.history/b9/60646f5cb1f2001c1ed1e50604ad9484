@@ -381,26 +381,25 @@ int Servicio_compareById(void* idUno, void* idDos)
 	eServicio* idServicioUno = (eServicio*) idUno;
 	eServicio* idServicioDos = (eServicio*) idDos;
 
-	Servicio_getId(idServicioUno, &auxIdUno);
-	Servicio_getId(idServicioDos, &auxIdDos);
+	Passenger_getId(idServicioUno, &auxIdUno);
+	Passenger_getId(idServicioDos, &auxIdDos);
 
 	if(auxIdUno == auxIdDos)
+	{
+		validacion = 0;
+	}
+	else
+	{
+		if (auxIdUno > auxIdDos)
 		{
-			comparacion = 0;
+			validacion = 1;
 		}
 		else
 		{
-			if (auxIdUno > auxIdDos)
-			{
-				comparacion = 1;
-			}
-			else
-			{
-				comparacion = -1;
-			}
+			validacion = -1;
 		}
-
-	return comparacion;
+	}
+	return validacion;
 }
 
 int SaveTxt(FILE* pFile, LinkedList* pArrayListServicio)

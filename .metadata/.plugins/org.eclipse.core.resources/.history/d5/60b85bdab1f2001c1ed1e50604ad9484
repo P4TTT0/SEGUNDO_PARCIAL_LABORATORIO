@@ -98,9 +98,8 @@ int main()
 
 				if (!ll_isEmpty(listaServicio))
 				{
-					ll_sort(listaServicio, Servicio_compareById, 1);
 					controller_ListServicio(listaServicio);
-				}
+					}
 				else
 				{
 					printf("========================================[ERROR]==========================================\n"

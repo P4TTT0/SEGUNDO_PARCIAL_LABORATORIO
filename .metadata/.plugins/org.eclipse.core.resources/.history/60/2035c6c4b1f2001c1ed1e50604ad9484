@@ -386,17 +386,17 @@ int Servicio_compareById(void* idUno, void* idDos)
 
 	if(auxIdUno == auxIdDos)
 		{
-			comparacion = 0;
+			validacion = 0;
 		}
 		else
 		{
 			if (auxIdUno > auxIdDos)
 			{
-				comparacion = 1;
+				validacion = 1;
 			}
 			else
 			{
-				comparacion = -1;
+				validacion = -1;
 			}
 		}
 

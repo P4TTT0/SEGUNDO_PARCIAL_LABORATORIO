@@ -70,7 +70,7 @@ int main()
 						printf("=========================================================================================\n"
 								"||------------------------------< | [DATOS CARGADOS] | >-------------------------------||\n"
 								"=========================================================================================\n");
-						ll_sort(listaServicio, Servicio_compareById, 1);
+//						ll_sort(listaServicio, Passenger_compareById, 1);
 						system("pause");
 						banderaTexto = 1;
 					}
@@ -98,9 +98,8 @@ int main()
 
 				if (!ll_isEmpty(listaServicio))
 				{
-					ll_sort(listaServicio, Servicio_compareById, 1);
 					controller_ListServicio(listaServicio);
-				}
+					}
 				else
 				{
 					printf("========================================[ERROR]==========================================\n"
@@ -144,22 +143,6 @@ int main()
 				}
 				system("pause");
 			break;
-
-            case 5:
-            	clear();
-				if(!ll_isEmpty(listaServicio))
-				{
-					controller_sortService(listaServicio);
-					controller_ListServicio(listaServicio);
-				}
-				else
-				{
-					printf("========================================[ERROR]==========================================\n"
-							"||-----------------------< | [NO HAY SERVICIOS CARGADOS] | >---------------------------||\n"
-							"=========================================================================================\n");
-				}
-				system("pause");
-        	break;
 
             case 6:
             	clear();

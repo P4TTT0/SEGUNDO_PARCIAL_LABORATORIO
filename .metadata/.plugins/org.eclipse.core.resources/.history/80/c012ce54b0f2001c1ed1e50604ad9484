@@ -584,7 +584,7 @@ int controller_sortService(LinkedList* pArrayListServicio)
 
 	if (pArrayListServicio != NULL)
 	{
-		validacion = ll_sort(pArrayListServicio, Servicio_compareByDescripcion, 1);
+		validacion = ll_sort(pArrayListServicio, Servicio_compareByDescripcion, 1)
 	}
     return validacion;
 }

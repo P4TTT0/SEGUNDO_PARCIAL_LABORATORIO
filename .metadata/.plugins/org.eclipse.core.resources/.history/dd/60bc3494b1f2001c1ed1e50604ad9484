@@ -382,23 +382,9 @@ int Servicio_compareById(void* idUno, void* idDos)
 	eServicio* idServicioDos = (eServicio*) idDos;
 
 	Servicio_getId(idServicioUno, &auxIdUno);
-	Servicio_getId(idServicioDos, &auxIdDos);
+	Passenger_getId(idServicioDos, &auxIdDos);
 
-	if(auxIdUno == auxIdDos)
-		{
-			comparacion = 0;
-		}
-		else
-		{
-			if (auxIdUno > auxIdDos)
-			{
-				comparacion = 1;
-			}
-			else
-			{
-				comparacion = -1;
-			}
-		}
+	comparacion = strcmp(auxIdUno, auxIdDos);
 
 	return comparacion;
 }
