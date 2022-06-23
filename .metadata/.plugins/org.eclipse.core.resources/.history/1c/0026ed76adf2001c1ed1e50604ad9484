@@ -148,21 +148,7 @@ int main()
             	clear();
 				if(!ll_isEmpty(listaServicio))
 				{
-					animacionCargando();
-					clear();
-					controller_saveAsText("data.csv", listaServicio);
-					if (validacion == 1)
-					{
-						printf("=========================================================================================\n"
-								"||----------------------------< | [GUARDADO CON EXITO] | >-----------------------------||\n"
-								"=========================================================================================\n");
-					}
-					else
-					{
-						printf("========================================[ERROR]==========================================\n"
-								"||--------------------< | [NO SE HA PODIDO GUARDAR CON EXITO] | >----------------------||\n"
-								"=========================================================================================\n");
-					}
+					controller_saveAsText("data.csv", pArrayListServicio)
 				}
 				else
 				{
@@ -317,7 +303,7 @@ int main()
 //            	}
 //			break;
         }
-    }while(option != 7);
+    }while(option != 6);
 
     return 0;
 }
