@@ -1,7 +1,7 @@
-02:03:44 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+02:09:07 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
 
-02:03:44 Build Finished. 0 errors, 0 warnings. (took 501ms)
+02:09:07 Build Finished. 0 errors, 0 warnings. (took 504ms)
 
