@@ -310,74 +310,103 @@ void calcularPrecioFinal(void* elemento)
     }
 }
 
-//int SaveTxt(FILE* pFile, LinkedList* pArrayListPassenger)
-//{
-//	int longitud;
-//	int i;
-//	int auxId;
-//	char auxNombre[50];
-//	char auxApellido[50];
-//	float auxPrecio;
-//	int auxTipoPasajero;
-//	char auxTipoPasajeroStr[50];
-//	char auxCodigoVuelo[8];
-//	char auxEstadoVuelo[40];
-//	int validacion;
-//
-//	validacion = 0;
-//
-//	Passenger* this;
-//
-//	if (pFile == NULL && pArrayListPassenger == NULL)
-//	{
-//		printf("[ERROR] - NO EXISTE EL ARCHIVO");
-//		exit(1);
-//	}
-//
-//	longitud = ll_len(pArrayListPassenger);
-//
-//	if (longitud > 0)
-//	{
-//		fprintf(pFile, "ID,NOMBRE,APELLIDO,PRECIO,CODIGOVUELO,TIPOPASAJERO,ESTADOVUELO\n");
-//
-//		for(i = 0; i < longitud; i++)
-//		{
-//			this = (Passenger*) ll_get(pArrayListPassenger, i);
-//			if (this != NULL)
-//			{
-//				Passenger_getId(this, &auxId);
-//				Passenger_getNombre(this, auxNombre);
-//				Passenger_getApellido(this, auxApellido);
-//				Passenger_getPrecio(this, &auxPrecio);
-//				Passenger_getCodigoVuelo(this, auxCodigoVuelo);
-//				Passenger_getTipoPasajero(this, &auxTipoPasajero);
-//				Passenger_getEstadoVuelo(this, auxEstadoVuelo);
-//
-//				if (auxTipoPasajero == 1)
-//					{
-//						strcpy(auxTipoPasajeroStr, "FirstClass");
-//					}
-//					else
-//					{
-//						if (auxTipoPasajero == 2)
-//						{
-//							strcpy(auxTipoPasajeroStr, "ExecutiveClass");
-//						}
-//						else
-//						{
-//							strcpy(auxTipoPasajeroStr, "EconomyClass");
-//						}
-//					}
-//
-//				fprintf(pFile, "%d,%s,%s,%f,%s,%s,%s\n", auxId, auxNombre, auxApellido, auxPrecio, auxCodigoVuelo, auxTipoPasajeroStr, auxEstadoVuelo);
-//
-//				validacion = 1;
-//			}
-//		}
-//	}
-//
-//	return validacion;
-//}
+int filtrarMinorista(void* elemento)
+{
+	eServicio* this = elemento;
+    int retorno = 0;
+
+    if(this != NULL)
+    {
+		 if(this->tipo == 1)
+		 {
+			retorno = 1;
+		 }
+    }
+    return retorno;
+}
+
+int filtrarMayorista(void* elemento)
+{
+	eServicio* this = elemento;
+    int retorno = 0;
+
+    if(this != NULL)
+    {
+		 if(this->tipo == 2)
+		 {
+			retorno = 1;
+		 }
+    }
+    return retorno;
+}
+
+int filtrarExportar(void* elemento)
+{
+	eServicio* this = elemento;
+    int retorno = 0;
+
+    if(this != NULL)
+    {
+		 if(this->tipo == 3)
+		 {
+			retorno = 1;
+		 }
+    }
+    return retorno;
+}
+
+int SaveTxt(FILE* pFile, LinkedList* pArrayListServicio)
+{
+	int longitud;
+	int i;
+	int auxId;
+	char auxDescripcion[50];
+	int auxTipo;
+	float auxPrecioUnitario;
+	int auxCantidad;
+	float auxTotalServicio;
+	int validacion;
+
+	validacion = 0;
+
+	eServicio* this;
+
+	if (pFile == NULL && pArrayListServicio == NULL)
+	{
+		printf("========================================[ERROR]==========================================\n"
+				"||--------------------------< | [NO EXISTE EL ARCHIVO] | >-----------------------------||\n"
+				"=========================================================================================\n");
+		exit(1);
+	}
+
+	longitud = ll_len(pArrayListServicio);
+
+	if (longitud > 0)
+	{
+		fprintf(pFile, "ID_SERVICIO,DESCRIPCION,TIPO,PRECIO UNITARIO,CANTIDAD,TOTAL SERVICIO\n");
+
+		for(i = 0; i < longitud; i++)
+		{
+			this = (eServicio*) ll_get(pArrayListServicio, i);
+			if (this != NULL)
+			{
+				Servicio_getId(this, &auxId);
+				Servicio_getDescripcion(this, auxDescripcion);
+				Servicio_getTipo(this, &auxTipo);
+				Servicio_getPrecio(this, &auxPrecioUnitario);
+				Servicio_getCantidad(this, &auxCantidad);
+				Servicio_getTotalServicio(this, &auxTotalServicio);
+
+
+				fprintf(pFile, "%d,%s,%d,%f,%d,%f\n", auxId, auxDescripcion, auxTipo, auxPrecioUnitario, auxCantidad, auxTotalServicio);
+
+				validacion = 1;
+			}
+		}
+	}
+
+	return validacion;
+}
 //
 //int SaveBinary(FILE* pFile, LinkedList* pArrayListPassenger)
 //{

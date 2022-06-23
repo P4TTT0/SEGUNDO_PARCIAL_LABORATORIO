@@ -35,6 +35,35 @@ int controller_loadFromText(char* path , LinkedList* pArrayServicio)
 
     return validacion;
 }
+
+///** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo texto).
+// *
+// * \param path char*
+// * \param pArrayListPassenger LinkedList*
+// * \return int
+// *
+// */
+int controller_saveAsText(char* path , LinkedList* pArrayListServicio)
+{
+	int validacion;
+	FILE* pFile;
+
+	pFile = fopen(path, "w");
+
+	if (pFile == NULL)
+	{
+		printf("========================================[ERROR]==========================================\n"
+				"||--------------------< | [NO SE HA PODIDO ABRIR EL ARCHIVO] | >-----------------------||\n"
+				"=========================================================================================\n");
+		exit(1);
+	}
+
+	validacion = SaveTxt(pFile, pArrayListServicio);
+
+	fclose(pFile);
+
+    return validacion;
+}
 /** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo binario).
  *
  * \param path char*
@@ -264,6 +293,150 @@ int controller_ListServicio(LinkedList* pArrayServicio)
 
     return 1;
 }
+void controller_subListaFiltrar(LinkedList* nuevaLista, int option)
+{
+	int respuesta;
+
+	clear();
+	controller_ListServicio(nuevaLista);
+
+	printf("=========================================================================================\n"
+			"||------------------------------< | [¿DESEA GUARDAR?] | >------------------------------||\n"
+			"=========================================================================================\n"
+			"||--[1]--|| Guardar.                                                                   ||\n"
+			"||--[2]--|| Cancelar y eliminar.                                                       ||\n"
+			"=========================================================================================\n"
+			"||------------------------------------< | [TTT] | >------------------------------------||\n"
+			"=========================================================================================\n"
+			"||--->[INGRESAR OPCION]:");
+
+	fflush(stdin);
+	scanf("%d", &respuesta);
+
+	clear();
+
+	while (respuesta < 1 || respuesta > 2)
+	{
+		printf("========================================[ERROR]==========================================\n"
+				"||-------------------------< | [INGRESE OPCION VALIDA] | >------------------------------||\n"
+				"=========================================================================================\n"
+				"||--[1]--|| Guardar.                                                                   ||\n"
+				"||--[2]--|| Cancelar y eliminar.                                                       ||\n"
+				"=========================================================================================\n"
+				"||------------------------------------< | [TTT] | >------------------------------------||\n"
+				"=========================================================================================\n"
+				"||--->[INGRESAR OPCION]:");
+
+		fflush(stdin);
+		scanf("%d", &respuesta);
+	}
+
+	animacionCargando();
+	clear();
+
+	if (respuesta == 2)
+	{
+		ll_deleteLinkedList(nuevaLista);
+		printf("=========================================================================================\n"
+				"||----------------------------< | [ELIMINADO CON EXITO] | >-----------------------------||\n"
+				"=========================================================================================\n");
+	}
+	else
+	{
+		int validacion;
+		switch(option)
+		{
+			 case 1:
+				 validacion = controller_saveAsText("minorista.csv", nuevaLista);
+			 break;
+			 case 2:
+				 validacion = controller_saveAsText("mayorista.csv", nuevaLista);
+			 break;
+			 case 3:
+				 validacion = controller_saveAsText("exportar.csv", nuevaLista);
+			 break;
+		}
+		clear();
+		if (validacion == 1)
+		{
+			printf("=========================================================================================\n"
+					"||----------------------------< | [GUARDADO CON EXITO] | >-----------------------------||\n"
+					"=========================================================================================\n");
+			system("pause");
+		}
+		else
+		{
+			printf("========================================[ERROR]==========================================\n"
+					"||--------------------< | [NO SE HA PODIDO GUARDAR CON EXITO] | >----------------------||\n"
+					"=========================================================================================\n");
+			ll_deleteLinkedList(nuevaLista);
+			system("pause");
+		}
+	}
+}
+
+int controller_filtrarServicio(LinkedList* pArrayServicio)
+{
+	int option;
+	LinkedList* nuevaLista;
+
+	do
+	{
+		clear();
+		printf("=========================================================================================\n"
+				"||------------------------------< | [FILTRAR POR TIPO] | >-----------------------------||\n"
+				"=========================================================================================\n"
+				"||--[1]--|| Filtrar MINORISTA.                                                         ||\n"
+				"||--[2]--|| Filtrar MAYORISTA.                                                         ||\n"
+				"||--[3]--|| Filtrar EXPORTAR                                                           ||\n"
+				"||--[4]--|| [SALIR]->|                                                                 ||\n"
+				"=========================================================================================\n"
+				"||------------------------------------< | [TTT] | >------------------------------------||\n"
+				"=========================================================================================\n"
+
+				"||--->[INGRESAR OPCION]:");
+
+		fflush(stdin);
+		scanf("%d", &option);
+
+		switch(option)
+		{
+			 case 1:
+				 animacionCargando();
+				 nuevaLista = ll_filter(pArrayServicio, filtrarMinorista);
+				 controller_subListaFiltrar(nuevaLista, option);
+			 break;
+			 case 2:
+				animacionCargando();
+				nuevaLista = ll_filter(pArrayServicio, filtrarMayorista);
+				controller_subListaFiltrar(nuevaLista, option);
+			 break;
+			 case 3:
+				animacionCargando();
+				controller_subListaFiltrar(nuevaLista, option);
+				nuevaLista = ll_filter(pArrayServicio, filtrarExportar);
+			 break;
+			 case 4:
+				 clear();
+				 printf("=========================================================================================\n"
+						"||-----------------------------< | [VOLVIENDO AL MENU] | >------------------------------||\n"
+						"=========================================================================================\n");
+				 system("pause");
+			 break;
+			 default:
+				clear();
+				printf("========================================[ERROR]==========================================\n"
+						"||-------------------------< | [INGRESE OPCION VALIDA] | >------------------------------||\n"
+						"=========================================================================================\n");
+				system("pause");
+			 break;
+		}
+	}
+	while (option != 4);
+
+
+	return 1;
+}
 //
 ///** \brief Modificar datos de pasajero
 // *
@@ -469,32 +642,6 @@ int controller_ListServicio(LinkedList* pArrayServicio)
 //    return validacion;
 //}
 //
-///** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo texto).
-// *
-// * \param path char*
-// * \param pArrayListPassenger LinkedList*
-// * \return int
-// *
-// */
-//int controller_saveAsText(char* path , LinkedList* pArrayListPassenger)
-//{
-//	int validacion;
-//	FILE* pFile;
-//
-//	pFile = fopen(path, "w");
-//
-//	if (pFile == NULL)
-//	{
-//		printf("[ERROR] - NO SE HA PODIDO ABRIR EL ARCHIVO CORRECTAMENTE.");
-//		exit(1);
-//	}
-//
-//	validacion = SaveTxt(pFile, pArrayListPassenger);
-//
-//	fclose(pFile);
-//
-//    return validacion;
-//}
 //
 ///** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo binario).
 // *

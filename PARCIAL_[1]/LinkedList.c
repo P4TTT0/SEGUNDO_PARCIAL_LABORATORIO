@@ -664,13 +664,51 @@ void ll_map(LinkedList* this, void (*fn)(void* element))
 {
 	int i;
 	int len;
-	len=ll_len(this);
 
 	if(this != NULL && fn != NULL)
 	{
+		len=ll_len(this);
 		for(i = 0;i < len; i++)
 		{
 			fn(ll_get(this, i));
 		}
 	}
+}
+
+/*
+ * Filtra la lista con una condición, recibiendo como parámetro
+ * la función que sera la encargada de decidir si cada elemento
+ * cumple la condición (1) o no (0) y si se agrega a una nueva lista filtrada.
+ * Verificando que tanto el puntero this como el puntero a la funcion
+ * fn sean distintos de NULL. Retorna la lista nueva lista filtrada.
+ * */
+
+LinkedList* ll_filter(LinkedList* this, int(*fn)(void*))
+{
+
+	LinkedList* listaFiltrada = NULL;
+	int i, tam;
+	void* eElemento=NULL;
+
+	if(this!=NULL && fn !=NULL)
+	{
+	listaFiltrada= ll_newLinkedList();
+
+		if(listaFiltrada != NULL)
+		{
+			tam = ll_len(this);
+
+			for(i=0; i<tam;i++)
+			{
+				eElemento= ll_get(this,i);
+				if(fn(eElemento))
+				{
+					ll_add(listaFiltrada, eElemento);
+				}
+			}
+		}
+	}
+
+	return listaFiltrada;
+
 }

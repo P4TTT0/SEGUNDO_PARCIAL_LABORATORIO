@@ -130,6 +130,18 @@ int main()
 			break;
 
             case 4:
+            	clear();
+				if(!ll_isEmpty(listaServicio))
+				{
+					controller_filtrarServicio(listaServicio);
+				}
+				else
+				{
+					printf("========================================[ERROR]==========================================\n"
+							"||-----------------------< | [NO HAY SERVICIOS CARGADOS] | >---------------------------||\n"
+							"=========================================================================================\n");
+				}
+				system("pause");
 			break;
 
 //            case 3:

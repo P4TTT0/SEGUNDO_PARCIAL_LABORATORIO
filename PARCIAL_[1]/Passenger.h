@@ -106,6 +106,9 @@ int Servicio_getTotalServicio(eServicio* this, float* totalServicio);
 void Servicio_list(eServicio* this);
 
 void calcularPrecioFinal(void* elemeto);
+int filtrarMinorista(void* elemento);
+int filtrarMayorista(void* elemento);
+int filtrarExportar(void* elemento);
 
 /// @fn int SaveTxt(FILE*, LinkedList*)
 /// @brief Recibe un archivo abierto en forma de escritura de texto para realizar un guardado de todos los pasajeros
@@ -113,7 +116,7 @@ void calcularPrecioFinal(void* elemeto);
 /// @param pFile Puntero a archivo
 /// @param pArrayListPassenger Puntero a likedlist que posee todos los pasajeros en un array.
 /// @return Retorna [0] si no se pudo guardar | [1] si se pudo guardar
-int SaveTxt(FILE* pFile, LinkedList* pArrayListPassenger);
+int SaveTxt(FILE* pFile, LinkedList* pArrayListServicio);
 /// @fn int SaveBinary(FILE*, LinkedList*)
 /// @brief Recibe un archivo abierto en forma de escritura binaria para realizar un guardado de todos los pasajeros
 ///
