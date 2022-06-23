@@ -105,6 +105,8 @@ int Servicio_getTotalServicio(eServicio* this, float* totalServicio);
 /// @param this Pasajero a listar
 void Servicio_list(eServicio* this);
 
+void calcularPrecioFinal(void* elemeto);
+
 /// @fn int SaveTxt(FILE*, LinkedList*)
 /// @brief Recibe un archivo abierto en forma de escritura de texto para realizar un guardado de todos los pasajeros
 ///

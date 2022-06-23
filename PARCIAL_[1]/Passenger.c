@@ -298,6 +298,18 @@ void Servicio_list(eServicio* this)
 			totalServicio);
 }
 
+void calcularPrecioFinal(void* elemento)
+{
+	eServicio* this = elemento;
+	float total;
+
+    if(elemento != NULL)
+    {
+        total = (float)this->cantidad * this->precioUnitario;
+        Servicio_setTotalServicio(this, total);
+    }
+}
+
 //int SaveTxt(FILE* pFile, LinkedList* pArrayListPassenger)
 //{
 //	int longitud;

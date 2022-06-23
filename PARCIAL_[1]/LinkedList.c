@@ -654,3 +654,23 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     return returnAux;
 }
 
+
+ /* Completa un campo del elemento, recibiendo como parámetro
+ * la función que sera la encargada de calcular el valor de ese campo.
+ * Verificando que tanto el puntero this como el puntero a la funcion
+ * fn sean distintos de NULL. Retorna la lista completa.
+ */
+void ll_map(LinkedList* this, void (*fn)(void* element))
+{
+	int i;
+	int len;
+	len=ll_len(this);
+
+	if(this != NULL && fn != NULL)
+	{
+		for(i = 0;i < len; i++)
+		{
+			fn(ll_get(this, i));
+		}
+	}
+}
