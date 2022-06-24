@@ -143,7 +143,7 @@ int Servicio_compareByDescripcion(void* servicioUno, void* servicioDos);
 ///
 /// @param idUno Primer id
 /// @param idDos Segundo id
-/// @return retorna [0] si son iguales [1] si el primer id es mayor que el segundo y [-1] si el primer id es menor que el segundo.
+/// @return retorna [0] si son iguales [1] si el primer nombre es mayor que el segundo y [-1] si el primer nombre es menor que el segundo.
 int Servicio_compareById(void* idUno, void* idDos);
 
 /// @fn int SaveTxt(FILE*, LinkedList*)

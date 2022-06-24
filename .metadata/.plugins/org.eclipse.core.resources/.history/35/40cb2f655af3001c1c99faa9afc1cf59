@@ -105,45 +105,12 @@ int Servicio_getTotalServicio(eServicio* this, float* totalServicio);
 /// @param this Pasajero a listar
 void Servicio_list(eServicio* this);
 
-/// @fn void calcularPrecioFinal(void*)
-/// @brief Toma un elemento para calcular su precio mediante la multiplicacion del su campo cantiad con la de su campo precioUnitario
-///
-/// @param elemeto Elemento al cual se le calculara el precio.
 void calcularPrecioFinal(void* elemeto);
-
-/// @fn int filtrarMinorista(void*)
-/// @brief Toma un elemento para evaluar su campo tipo
-///
-/// @param elemento Elemento a evaluar su campo
-/// @return [0] si el campo TIPO no es igual a 1 | [1] si el campo TIPO es igual a 1
 int filtrarMinorista(void* elemento);
-/// @fn int filtrarMayorista(void*)
-/// @brief Toma un elemento para evaluar su campo tipo
-///
-/// @param elemento Elemento a evaluar su campo
-/// @return [0] si el campo TIPO no es igual a 2 | [1] si el campo TIPO es igual a 2
 int filtrarMayorista(void* elemento);
-/// @fn int filtrarExportar(void*)
-/// @brief Toma un elemento para evaluar su campo tipo
-///
-/// @param elemento Elemento a evaluar su campo
-/// @return [0] si el campo TIPO no es igual a 3 | [1] si el campo TIPO es igual a 3
 int filtrarExportar(void* elemento);
 
-/// @fn int Servicio_compareByDescripcion(void*, void*)
-/// @brief Toma 2 servicios para comparar su campo descripcion
-///
-/// @param servicioUno Servicio uno
-/// @param servicioDos Servicio 2
-/// @return retorna [0] si son iguales [1] si la primer descripcion es mayor que la segunda y [-1] si la primer descripcion es menor que la segunda.
 int Servicio_compareByDescripcion(void* servicioUno, void* servicioDos);
-
-/// @fn int Servicio_compareById(void*, void*)
-/// @brief Recibe dos id para luego comparlos
-///
-/// @param idUno Primer id
-/// @param idDos Segundo id
-/// @return retorna [0] si son iguales [1] si el primer id es mayor que el segundo y [-1] si el primer id es menor que el segundo.
 int Servicio_compareById(void* idUno, void* idDos);
 
 /// @fn int SaveTxt(FILE*, LinkedList*)
