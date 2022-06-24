@@ -129,7 +129,7 @@ int main()
 					{
             			if (path == 1)
             			{
-            				controller_filtrarServicio(listaServicio);
+
             			}
             			else
             			{
@@ -137,6 +137,7 @@ int main()
 									"||--------------------< | [YA ESTAS EN UNA LISTA FILTRADA] | >-------------------------||\n"
 									"=========================================================================================\n");
             			}
+						controller_filtrarServicio(listaServicio);
 					}
 					else
 					{
