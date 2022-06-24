@@ -214,3 +214,152 @@ gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o 
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+08:35:53 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+20:38:05 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+Info: Nothing to build for PARCIAL_[1]
+20:45:52 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Passenger.o estetica.o input.o main.o parser.o 
+20:50:43 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Servicio.o "..\\Servicio.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:22:14 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:65:22: warning: implicit declaration of function 'controller_optionsToLoad' [-Wimplicit-function-declaration]
+   65 |               path = controller_optionsToLoad();
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:22:43 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:24:10 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Servicio.o "..\\Servicio.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+Info: Nothing to build for PARCIAL_[1]
+21:26:35 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:30:25 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_loadFromText':
+..\Controller.c:84:17: warning: character constant too long for its type
+   84 |    strcpy(path, 'data.csv');
+      |                 ^~~~~~~~~~
+..\Controller.c:84:17: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from ..\Servicio.h:14,
+                 from ..\Controller.c:7:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'int'
+   79 | _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+      |                                        ^~~~~~
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:30:54 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:34:36 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+21:36:26 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:39:52 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:40:38 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:43:40 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:178:28: warning: passing argument 1 of 'controller_saveAsText' makes pointer from integer without a cast [-Wint-conversion]
+  178 |      controller_saveAsText(path, listaServicio);
+      |                            ^~~~
+      |                            |
+      |                            int
+In file included from ..\main.c:4:
+..\Controller.h:3:33: note: expected 'char *' but argument is of type 'int'
+    3 | int controller_saveAsText(char* path , LinkedList* pArrayListServicio);
+      |                           ~~~~~~^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_subListaFiltrar':
+..\Controller.c:242:41: warning: passing argument 1 of 'controller_saveAsText' makes integer from pointer without a cast [-Wint-conversion]
+  242 |      validacion = controller_saveAsText("minorista.csv", nuevaLista);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+..\Controller.c:130:31: note: expected 'int' but argument is of type 'char *'
+  130 | int controller_saveAsText(int archivo, LinkedList* pArrayListServicio)
+      |                           ~~~~^~~~~~~
+..\Controller.c:245:41: warning: passing argument 1 of 'controller_saveAsText' makes integer from pointer without a cast [-Wint-conversion]
+  245 |      validacion = controller_saveAsText("mayorista.csv", nuevaLista);
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+..\Controller.c:130:31: note: expected 'int' but argument is of type 'char *'
+  130 | int controller_saveAsText(int archivo, LinkedList* pArrayListServicio)
+      |                           ~~~~^~~~~~~
+..\Controller.c:248:41: warning: passing argument 1 of 'controller_saveAsText' makes integer from pointer without a cast [-Wint-conversion]
+  248 |      validacion = controller_saveAsText("exportar.csv", nuevaLista);
+      |                                         ^~~~~~~~~~~~~~
+      |                                         |
+      |                                         char *
+..\Controller.c:130:31: note: expected 'int' but argument is of type 'char *'
+  130 | int controller_saveAsText(int archivo, LinkedList* pArrayListServicio)
+      |                           ~~~~^~~~~~~
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:47:04 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+Info: Nothing to build for PARCIAL_[1]
+Info: Nothing to build for PARCIAL_[1]
+21:51:28 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:187:28: warning: passing argument 1 of 'controller_saveAsText' makes pointer from integer without a cast [-Wint-conversion]
+  187 |      controller_saveAsText(path, listaServicio);
+      |                            ^~~~
+      |                            |
+      |                            int
+In file included from ..\main.c:4:
+..\Controller.h:3:33: note: expected 'char *' but argument is of type 'int'
+    3 | int controller_saveAsText(char* path , LinkedList* pArrayListServicio);
+      |                           ~~~~~~^~~~
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:52:33 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 
+21:53:23 **** Incremental Build of configuration Debug for project PARCIAL_[1] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o PARCIAL_[1].exe Controller.o LinkedList.o Servicio.o estetica.o input.o main.o parser.o 

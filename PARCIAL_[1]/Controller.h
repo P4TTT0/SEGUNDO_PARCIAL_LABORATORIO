@@ -1,14 +1,9 @@
-int controller_loadFromText(char* path , LinkedList* pArrayListPassenger);
-int controller_saveAsText(char* path , LinkedList* pArrayListServicio);
-int controller_id();
-int controller_updateId(int id);
-int controller_addPassenger(LinkedList* pArrayListPassenger);
-int controller_editPassenger(LinkedList* pArrayListPassenger);
-int controller_removePassenger(LinkedList* pArrayListPassenger);
+int controller_optionsToLoad();
+int controller_loadFromText(int archivo, LinkedList* pArrayListPassenger);
+int controller_saveAsText(int archivo, LinkedList* pArrayListServicio);
 int controller_ListServicio(LinkedList* pArrayServicio);
 void controller_subListaFiltrar(LinkedList* nuevaLista, int option);
 int controller_filtrarServicio(LinkedList* pArrayServicio);
 int controller_sortService(LinkedList* pArrayListServicio);
-int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger);
 
 

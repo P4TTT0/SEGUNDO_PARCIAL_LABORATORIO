@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "LinkedList.h"
 #include "Controller.h"
-#include "Passenger.h"
 #include "estetica.h"
+#include "Servicio.h"
 
 /****************************************************
     Menu:
@@ -28,6 +28,7 @@ int main()
     int validacion = 0;
     int banderaTexto = 0;
     int banderaGuardado = 0;
+    int path;
 
 
     LinkedList* listaServicio = ll_newLinkedList();
@@ -61,8 +62,15 @@ int main()
 
             	if (ll_isEmpty(listaServicio) || banderaTexto == 0)
             	{
+            		path = controller_optionsToLoad();
+
+            		if (path == 5)
+            		{
+            			system("pause");
+            		}
+
             		animacionCargando();
-            		validacion = controller_loadFromText("data.csv", listaServicio);
+            		validacion = controller_loadFromText(path, listaServicio);
 
 					if (validacion == 1)
 					{
@@ -132,17 +140,26 @@ int main()
 
             case 4:
             	clear();
-				if(!ll_isEmpty(listaServicio))
-				{
-					controller_filtrarServicio(listaServicio);
-				}
-				else
-				{
-					printf("========================================[ERROR]==========================================\n"
-							"||-----------------------< | [NO HAY SERVICIOS CARGADOS] | >---------------------------||\n"
+            	if (path == 1)
+            	{
+            		if(!ll_isEmpty(listaServicio))
+					{
+						controller_filtrarServicio(listaServicio);
+					}
+					else
+					{
+						printf("========================================[ERROR]==========================================\n"
+								"||-----------------------< | [NO HAY SERVICIOS CARGADOS] | >---------------------------||\n"
+								"=========================================================================================\n");
+					}
+            	}
+            	else
+            	{
+            		printf("========================================[ERROR]==========================================\n"
+							"||--------------------< | [YA ESTAS EN UNA LISTA FILTRADA] | >-------------------------||\n"
 							"=========================================================================================\n");
-				}
-				system("pause");
+            	}
+            	system("pause");
 			break;
 
             case 5:
@@ -167,7 +184,7 @@ int main()
 				{
 					animacionCargando();
 					clear();
-					controller_saveAsText("data.csv", listaServicio);
+					controller_saveAsText(path, listaServicio);
 					if (validacion == 1)
 					{
 						printf("=========================================================================================\n"
@@ -205,6 +222,7 @@ int main()
 							"||-------------------------< | [PRIMERO DEBE GUARDAR] | >------------------------------||\n"
 							"=========================================================================================\n");
             		option = 1;
+            		system("pause");
             	}
 			break;
 

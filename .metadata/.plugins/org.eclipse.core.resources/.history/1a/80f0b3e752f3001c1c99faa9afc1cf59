@@ -1,0 +1,8 @@
+int controller_loadFromText(LinkedList* pArrayListPassenger);
+int controller_saveAsText(char* path , LinkedList* pArrayListServicio);
+int controller_ListServicio(LinkedList* pArrayServicio);
+void controller_subListaFiltrar(LinkedList* nuevaLista, int option);
+int controller_filtrarServicio(LinkedList* pArrayServicio);
+int controller_sortService(LinkedList* pArrayListServicio);
+
+
